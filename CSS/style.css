@@ -21,16 +21,16 @@ p{
 
 /* header section start */
 
-.color{
+.skip-color{
     color: orange;
 }
-.first-width{
+.half-width{
     width: 50%;
     padding: 20px 40px;
     margin-top: 40px;
     margin-left: 10px;
 }
-.first-width img{
+.half-width img{
     width: 95%;
     height: 445px;
 }
@@ -50,3 +50,63 @@ p{
     background-size: 100%;
 }
 /* about end */
+
+/* recepies start */
+ .menu-team{
+    text-align: center;
+}
+h3{
+    font-size: 30px;
+    font-weight: bolder;
+}
+#menu-list1 img{
+    width: 98%;
+}
+#menu-list1{
+    height: 550px;
+    padding: 30px;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-radius: 30px;
+    box-shadow: 20px 20px 40px gray;
+    border-image-slice: 1;
+} 
+/* recepies end */
+
+/* extra section start */
+.extra-menu{
+    width: 80%;
+    height: 200px;  
+    box-shadow: 20px 20px 40px gray;
+    border-image-slice: 1;
+    border-image: linear-gradient(grey);
+    border-radius: 30px;
+    padding-left: 150px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#extra-item{
+    padding-right: 17%;
+}
+.extra-menu p{
+   margin-top: -40px;
+}
+/* extra section end */
+
+/* footer start */
+footer{
+    background-color: black;
+    height: 300px;
+    margin-top: -120px;
+    padding-top: 40px;
+}
+footer h1{
+    color: grey;
+    text-align: center;
+}
+#size{
+    color: wheat;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 100;
+}
